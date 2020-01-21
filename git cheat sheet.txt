@@ -1,0 +1,47 @@
+﻿
+
+
+git notes 
+
+
+All the commands should run in the local repository 
+
+--> git init 
+to start a repo in the given directory 
+
+-->git status 
+to checkt the status of the repo  
+
+--> git add <file name>
+this to add the file in the repo
+
+-->git commit -m “MESSAGE” 
+git commit is used to uppload the file to the repo.
+message is like an comment about what the file is about.
+
+-->git log
+history about the history of the commit
+
+-->git add -A 
+to add all the files in the repo 
+
+--> git reset HEAD <file>
+to remove an added file
+
+--> git branch 
+to view all branches of the repo
+
+-->git checkout -b <branch name>
+to go the next branch
+
+--> git checkout master
+to change to master branch
+
+--> git merge <branchname>
+to  merge to branches 
+
+-->git branch -d <branchname>
+to remove a branch
+
+--> git push 
+to push code to repo
